@@ -1,4 +1,4 @@
-## Fortiosapi library
+## fortiosAPI library
 
 > Forked from [official fortiosapi repository](https://github.com/fortinet-solutions-cse/fortiosapi). This repository contains fixed SSH method for FortiGate devices. 
 
