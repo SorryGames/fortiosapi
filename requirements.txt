@@ -1,6 +1,7 @@
 pexpect
 requests
 paramiko
+fabric
 nose
 packaging
 oyaml

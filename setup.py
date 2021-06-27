@@ -7,8 +7,8 @@ with open('README.md') as fh:
 
 setup(
     name='fortiosapi',
-    version='1.0.5',
-    description="Python modules to use Fortigate APIs",
+    version='1.0.5.1',
+    description="Python modules to use Fortigate APIs (with fixed SSH method)",
     long_description=long_description,
     long_description_content_type="text/markdown",
     # Valid Classifiers are here:
@@ -21,7 +21,7 @@ setup(
     ],
     keywords='Fortinet fortigate fortios rest api',
     packages=find_packages(),
-    install_requires=['requests', 'paramiko', 'oyaml'],
+    install_requires=['requests', 'fabric', 'paramiko', 'oyaml'],
     author='Nicolas Thomas',
     author_email='nthomas@fortinet.com',
     url='https://github.com/fortinet-solutions-cse/fortiosapi',
