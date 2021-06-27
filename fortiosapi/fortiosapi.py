@@ -683,7 +683,7 @@ class FortiOSAPI:
             "Return code 1"
         ]
         #
-        search_errors = [ error in ssh_result.stdout for error in error_list ]
+        search_errors = [ error in ssh_result.stdout for error in error_list ] + [ len(ssh_result.stderr) > 0 ]
         ssh_connection.close()
         #
         # var['meta']['err'] is True if there were errors during execution 
