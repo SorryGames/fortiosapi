@@ -5,6 +5,6 @@
 ## How to install
 
 ```
-pip3 install git+http://git.solidex.minsk.by:3000/Solidex/confanalyzer.git
+pip3 install git+http://git.solidex.minsk.by:3000/Solidex/fortiosapi
 
 ```
