@@ -687,7 +687,7 @@ class FortiOSAPI:
         ssh_connection.close()
         #
         # var['meta']['err'] is True if there were errors during execution 
-        return (ssh_result.stdout, ssh_result.stderr)  
+        return (ssh_result.stdout, any(search_errors))  
 
 
     def license(self, vdom="root"):
