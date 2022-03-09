@@ -7,7 +7,7 @@ with open('README.md') as fh:
 
 setup(
     name='fortiosapi',
-    version='1.0.5.1',
+    version='1.0.5.2',
     description="Python modules to use Fortigate APIs (with fixed SSH method)",
     long_description=long_description,
     long_description_content_type="text/markdown",
