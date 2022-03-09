@@ -6,5 +6,6 @@
 
 ```
 pip install git+http://git.solidex.minsk.by:3000/Solidex/fortiosapi
+pip3 install git+http://git.solidex.minsk.by:3000/Solidex/fortiosapi
 
 ```
