@@ -676,7 +676,7 @@ class FortiOSAPI:
         ssh_connection = Connection(host=host, port=port, user=user, 
                                     connect_kwargs={'password': password})
         #
-        ssh_result = ssh_connection.run(cmds, echo=True, timeout=30)
+        ssh_result = ssh_connection.run(cmds, echo_stdin=True, timeout=30)
         error_list = [ 
             "Unknown action 0",
             "Command fail", 
